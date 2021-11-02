@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-01-SpringContainer" />
+        <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-02-DI-ConstructorInjection" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="Spring-01-SpringContainer" target="1.8" />
       <module name="Spring-02-DI-ConstructorInjection" target="1.8" />
       <module name="Spring-02-DI-SetterInjection" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Component" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
