@@ -11,8 +11,8 @@
 	<groupId>com</groupId>
 	<artifactId>cybertek</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-07-SpringBoot-Demo</name>
-	<description>Spring-07-SpringBoot-Demo</description>
+	<name>Spring-07-SpringBoot-Demo_</name>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -26,8 +26,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
-
 	</dependencies>
 
 	<build>
