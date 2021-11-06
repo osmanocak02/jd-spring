@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -27,8 +29,13 @@ public class EmployeeController {
     }
 
     @PostMapping("/list")
-    public String employeeList(@ModelAttribute("employee") Employee employee){
+    public String employeeList(@ModelAttribute("employee") Employee employee, Model model){
 
+        model.addAttribute("employeeList", Arrays.asList(employee));
+
+        int birthYear = LocalDate.parse(employee.getBirthday()).getYear();
+
+        model.addAttribute("age", LocalDate.now().getYear() - birthYear);
 
         return "employee/employee-list";
     }
