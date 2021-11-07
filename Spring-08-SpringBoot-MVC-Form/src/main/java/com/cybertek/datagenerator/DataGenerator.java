@@ -57,7 +57,8 @@ public class DataGenerator {
                 "Washington",
                 "Wisconsin",
                 "WestVirginia",
-                "Wyoming");
+                "Wyoming",
+                "Hawaii");
 
         return stateList;
 
