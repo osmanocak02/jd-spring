@@ -12,6 +12,7 @@
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-09-ORM-TableCreation" />
         <module name="cybertek" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-02-DI-ConstructorInjection" />
@@ -28,6 +29,7 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Form" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Model-View" target="11" />
+      <module name="Spring-09-ORM-TableCreation" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,6 +38,7 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Form" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View" options="-parameters" />
+      <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="cybertek" options="-parameters" />
     </option>
   </component>
