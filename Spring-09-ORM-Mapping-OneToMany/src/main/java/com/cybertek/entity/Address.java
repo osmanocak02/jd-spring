@@ -24,8 +24,8 @@ public class Address {
         this.zipCode = zipCode;
     }
 
-    //   @ManyToOne
- //   private Person person;
+    @ManyToOne
+    private Person person;
 
 
 }

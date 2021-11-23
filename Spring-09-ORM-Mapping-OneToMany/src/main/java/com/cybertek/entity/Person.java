@@ -26,11 +26,11 @@ public class Person {
         this.lastName = lastName;
     }
 
-    //   @OneToMany(mappedBy = "person")
- //   private List<Address> addresses;
-
-    @OneToMany
-    @JoinColumn(name= "person_id")
+    @OneToMany(mappedBy = "person")
     private List<Address> addresses;
+
+    //@OneToMany(cascade = CascadeType.ALL)
+    //@JoinColumn(name= "person_id")
+    //private List<Address> addresses;
 
 }
