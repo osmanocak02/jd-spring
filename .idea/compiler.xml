@@ -21,6 +21,7 @@
         <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-08-SpringBoot-MVC-Model-View" />
+        <module name="Spring-09-ORM-CinemaLab" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Form" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Model-View" target="11" />
+      <module name="Spring-09-ORM-CinemaLab" target="11" />
       <module name="Spring-09-ORM-Mapping-ManyToMany" target="11" />
       <module name="Spring-09-ORM-Mapping-ManyToOne" target="11" />
       <module name="Spring-09-ORM-Mapping-OneToMany" target="11" />
@@ -46,6 +48,7 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Form" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View" options="-parameters" />
+      <module name="Spring-09-ORM-CinemaLab" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-ManyToMany" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-ManyToOne" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-OneToMany" options="-parameters" />
