@@ -15,7 +15,7 @@ public class User extends BaseEntity{
 
     private String email;
     private String password;
-    private String userName;
+    private String username;
 
     @OneToOne(fetch = FetchType.LAZY,cascade = {CascadeType.PERSIST,CascadeType.MERGE})
     @JoinColumn(name = "account_details_id")
@@ -24,6 +24,6 @@ public class User extends BaseEntity{
     public User(String email, String password, String userName) {
         this.email = email;
         this.password = password;
-        this.userName = userName;
+        this.username = userName;
     }
 }
