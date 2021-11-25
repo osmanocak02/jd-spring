@@ -6,6 +6,7 @@ import com.cybertek.enums.MovieType;
 import com.cybertek.enums.UserRole;
 import com.cybertek.repository.*;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -13,6 +14,7 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
+@Component
 public class DataGenerator implements CommandLineRunner {
 
     private MovieRepository movieRepository;
