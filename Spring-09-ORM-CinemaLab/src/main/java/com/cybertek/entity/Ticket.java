@@ -13,14 +13,14 @@ import java.time.LocalDateTime;
 @Setter
 public class Ticket extends BaseEntity{
 
-    @Column(columnDefinition = "TIMESTAMP")
-    private LocalDateTime dateTime;
-
     @Column(name = "seat_number")
     private Integer seatNumber;
 
     @Column(name = "row_number")
     private Integer rowNumber;
+
+    @Column(columnDefinition = "TIMESTAMP")
+    private LocalDateTime dateTime;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "movie_cinema_id")
@@ -30,9 +30,9 @@ public class Ticket extends BaseEntity{
     @JoinColumn(name = "user_account_id")
     private User user;
 
-    public Ticket(LocalDateTime dateTime, Integer seatNumber, Integer rowNumber) {
-        this.dateTime = dateTime;
+    public Ticket(Integer seatNumber, Integer rowNumber, LocalDateTime dateTime) {
         this.seatNumber = seatNumber;
         this.rowNumber = rowNumber;
+        this.dateTime = dateTime;
     }
 }

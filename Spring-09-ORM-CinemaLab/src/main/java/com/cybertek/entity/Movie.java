@@ -19,7 +19,11 @@ import java.util.List;
 public class Movie extends BaseEntity{
 
     private String name;
-    private BigDecimal price;
+
+    @Column(columnDefinition = "DATE")
+    private LocalDate releaseDate;
+
+    private Integer duration;
 
     @Enumerated(EnumType.STRING)
     private MovieType type;
@@ -27,10 +31,7 @@ public class Movie extends BaseEntity{
     @Enumerated(EnumType.STRING)
     private MovieState state;
 
-    @Column(columnDefinition = "DATE")
-    private LocalDate releaseDate;
-
-    private Integer duration;
+    private BigDecimal price;
 
     @Column(columnDefinition = "text")
     private String summary;
@@ -41,12 +42,12 @@ public class Movie extends BaseEntity{
             inverseJoinColumns = @JoinColumn(name="genre_id"))
     private List<Genre> genreList = new ArrayList<>();
 
-    public Movie(String name, BigDecimal price, MovieType movieType, MovieState movieState, LocalDate releaseDate, Integer duration) {
+    public Movie(String name, LocalDate releaseDate, Integer duration, MovieType type, MovieState state, BigDecimal price) {
         this.name = name;
-        this.price = price;
-        this.type = type;
-        this.state = state;
         this.releaseDate = releaseDate;
         this.duration = duration;
+        this.type = type;
+        this.state = state;
+        this.price = price;
     }
 }
