@@ -39,6 +39,7 @@
       <module name="Spring-08-SpringBoot-MVC-Model-View" target="11" />
       <module name="Spring-09-ORM-CinemaLab" target="11" />
       <module name="Spring-09-ORM-DerivedQueries" target="11" />
+      <module name="Spring-09-ORM-Mapping-JPQL-NamedQueries" target="11" />
       <module name="Spring-09-ORM-Mapping-ManyToMany" target="11" />
       <module name="Spring-09-ORM-Mapping-ManyToOne" target="11" />
       <module name="Spring-09-ORM-Mapping-OneToMany" target="11" />
@@ -54,6 +55,7 @@
       <module name="Spring-08-SpringBoot-MVC-Model-View" options="-parameters" />
       <module name="Spring-09-ORM-CinemaLab" options="-parameters" />
       <module name="Spring-09-ORM-DerivedQueries" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-JPQL-NamedQueries" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-ManyToMany" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-ManyToOne" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-OneToMany" options="-parameters" />
