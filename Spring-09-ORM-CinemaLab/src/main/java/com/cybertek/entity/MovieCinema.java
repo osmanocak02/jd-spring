@@ -27,4 +27,11 @@ public class MovieCinema extends BaseEntity {
     public MovieCinema(LocalDateTime dateTime) {
         this.dateTime = dateTime;
     }
+
+    @Override
+    public String toString() {
+        return "MovieCinema{" +
+                "dateTime=" + dateTime +
+                '}';
+    }
 }
