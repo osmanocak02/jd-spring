@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToMany/Spring-09-ORM-Mapping-OneToMany.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToMany/Spring-09-ORM-Mapping-OneToMany.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/Spring-09-ORM-Mapping-OneToOne.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/Spring-09-ORM-Mapping-OneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/cybertek.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/cybertek.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/derivedqueries.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/derivedqueries.iml" />
     </modules>

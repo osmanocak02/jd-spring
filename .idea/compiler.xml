@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-10-Security-DefaultConfiguration" />
         <module name="Spring-08-SpringBoot-MVC-Form" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-09-ORM-TableCreation" />
@@ -45,6 +46,7 @@
       <module name="Spring-09-ORM-Mapping-OneToMany" target="11" />
       <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
+      <module name="Spring-10-Security-DefaultConfiguration" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -61,6 +63,7 @@
       <module name="Spring-09-ORM-Mapping-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
     </option>
