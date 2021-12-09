@@ -22,6 +22,7 @@
         <module name="Spring-08-SpringBoot-MVC-Controller" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
+        <module name="Spring-10-Security-CustomConfiguration" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-08-SpringBoot-MVC-Model-View" />
         <module name="Spring-09-ORM-CinemaLab" />
@@ -46,6 +47,7 @@
       <module name="Spring-09-ORM-Mapping-OneToMany" target="11" />
       <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
+      <module name="Spring-10-Security-CustomConfiguration" target="11" />
       <module name="Spring-10-Security-DefaultConfiguration" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -63,6 +65,7 @@
       <module name="Spring-09-ORM-Mapping-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
