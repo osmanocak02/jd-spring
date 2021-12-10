@@ -16,6 +16,7 @@
         <module name="Spring-09-ORM-DerivedQueries" />
         <module name="cybertek" />
         <module name="Spring-02-DI-SetterInjection" />
+        <module name="Spring-10-Security-HttpBasic-AutRoleBase" />
         <module name="Spring-01-SpringContainer" />
         <module name="derivedqueries" />
         <module name="Spring-05-JavaAnnotations-Component" />
@@ -49,6 +50,7 @@
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Spring-10-Security-CustomConfiguration" target="11" />
       <module name="Spring-10-Security-DefaultConfiguration" target="11" />
+      <module name="Spring-10-Security-HttpBasic-AutRoleBase" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -67,6 +69,7 @@
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
+      <module name="Spring-10-Security-HttpBasic-AutRoleBase" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
     </option>
