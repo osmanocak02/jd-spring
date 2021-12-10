@@ -32,7 +32,7 @@ public class User {
         this.permissions = permissions;
     }
 
-    public List<String> getRolesList(){
+    public List<String> getRoleList(){
         if(this.roles.length()>0){
             return Arrays.asList(this.roles.split(","));
         }
