@@ -27,6 +27,7 @@
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-08-SpringBoot-MVC-Model-View" />
         <module name="Spring-09-ORM-CinemaLab" />
+        <module name="Spring-10-Security-HttpBasic-Database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,6 +52,7 @@
       <module name="Spring-10-Security-CustomConfiguration" target="11" />
       <module name="Spring-10-Security-DefaultConfiguration" target="11" />
       <module name="Spring-10-Security-HttpBasic-AutRoleBase" target="11" />
+      <module name="Spring-10-Security-HttpBasic-Database" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -70,6 +72,7 @@
       <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-AutRoleBase" options="-parameters" />
+      <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
     </option>

@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/Spring-10-Security-CustomConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/Spring-10-Security-CustomConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutRoleBase/Spring-10-Security-HttpBasic-AutRoleBase.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutRoleBase/Spring-10-Security-HttpBasic-AutRoleBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-Database/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" filepath="$PROJECT_DIR$/Spring-10-Security-Database/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/cybertek.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/cybertek.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/derivedqueries.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/derivedqueries.iml" />
     </modules>
