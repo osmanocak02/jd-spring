@@ -13,6 +13,7 @@
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-09-ORM-Mapping-ManyToOne" />
         <module name="Spring-09-ORM-Mapping-ManyToMany" />
+        <module name="Spring-10-Security-FormAuth" />
         <module name="Spring-09-ORM-DerivedQueries" />
         <module name="cybertek" />
         <module name="Spring-02-DI-SetterInjection" />
@@ -51,6 +52,7 @@
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Spring-10-Security-CustomConfiguration" target="11" />
       <module name="Spring-10-Security-DefaultConfiguration" target="11" />
+      <module name="Spring-10-Security-FormAuth" target="11" />
       <module name="Spring-10-Security-HttpBasic-AutRoleBase" target="11" />
       <module name="Spring-10-Security-HttpBasic-Database" target="11" />
     </bytecodeTargetLevel>
@@ -71,6 +73,7 @@
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
+      <module name="Spring-10-Security-FormAuth" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-AutRoleBase" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="cybertek" options="-parameters" />
