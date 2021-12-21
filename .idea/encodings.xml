@@ -22,6 +22,9 @@
     <file url="file://$PROJECT_DIR$/Spring-10-Security-FormAuth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutRoleBase/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-Jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -7,30 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-10-Security-DefaultConfiguration" />
         <module name="Spring-08-SpringBoot-MVC-Form" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-09-ORM-Mapping-ManyToOne" />
-        <module name="Spring-09-ORM-Mapping-ManyToMany" />
-        <module name="Spring-10-Security-FormAuth" />
-        <module name="Spring-09-ORM-DerivedQueries" />
+        <module name="Spring-11-Rest-HttpVerbs-Preferred" />
         <module name="cybertek" />
-        <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-11-Rest-HttpVerbs-Legacy" />
-        <module name="Spring-10-Security-HttpBasic-AutRoleBase" />
         <module name="Spring-01-SpringContainer" />
-        <module name="derivedqueries" />
-        <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
-        <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-11-Rest-Jackson" />
-        <module name="Spring-10-Security-CustomConfiguration" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-08-SpringBoot-MVC-Model-View" />
         <module name="Spring-09-ORM-CinemaLab" />
         <module name="Spring-10-Security-HttpBasic-Database" />
+        <module name="Spring-10-Security-DefaultConfiguration" />
+        <module name="Spring-11-Rest-ResponseEntity" />
+        <module name="Spring-09-ORM-Mapping-ManyToMany" />
+        <module name="Spring-10-Security-FormAuth" />
+        <module name="Spring-09-ORM-DerivedQueries" />
+        <module name="Spring-02-DI-SetterInjection" />
+        <module name="Spring-10-Security-HttpBasic-AutRoleBase" />
+        <module name="derivedqueries" />
+        <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-09-ORM-Mapping-OneToOne" />
+        <module name="Spring-10-Security-CustomConfiguration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -58,7 +60,9 @@
       <module name="Spring-10-Security-HttpBasic-AutRoleBase" target="11" />
       <module name="Spring-10-Security-HttpBasic-Database" target="11" />
       <module name="Spring-11-Rest-HttpVerbs-Legacy" target="11" />
+      <module name="Spring-11-Rest-HttpVerbs-Preferred" target="11" />
       <module name="Spring-11-Rest-Jackson" target="11" />
+      <module name="Spring-11-Rest-ResponseEntity" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -81,7 +85,9 @@
       <module name="Spring-10-Security-HttpBasic-AutRoleBase" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="Spring-11-Rest-HttpVerbs-Legacy" options="-parameters" />
+      <module name="Spring-11-Rest-HttpVerbs-Preferred" options="-parameters" />
       <module name="Spring-11-Rest-Jackson" options="-parameters" />
+      <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
     </option>
