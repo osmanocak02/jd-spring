@@ -34,6 +34,7 @@
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-11-Rest-RestTemplate" />
         <module name="Spring-10-Security-CustomConfiguration" />
+        <module name="Spring-11-Rest-SchoolLab" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -65,6 +66,7 @@
       <module name="Spring-11-Rest-Jackson" target="11" />
       <module name="Spring-11-Rest-ResponseEntity" target="11" />
       <module name="Spring-11-Rest-RestTemplate" target="11" />
+      <module name="Spring-11-Rest-SchoolLab" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -91,6 +93,7 @@
       <module name="Spring-11-Rest-Jackson" options="-parameters" />
       <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
+      <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
     </option>
