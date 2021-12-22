@@ -19,7 +19,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @Table(name="teacher")
-@JsonIgnoreProperties(value={"hibernate_Lazy_Initializer"}, ignoreUnknown = true)
+@JsonIgnoreProperties(value={"hibernateLazyInitializer"}, ignoreUnknown = true)
 public class Teacher extends BaseEntity{
 
     private LocalDate birthday;

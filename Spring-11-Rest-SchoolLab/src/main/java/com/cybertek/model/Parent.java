@@ -18,11 +18,11 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @Table(name="parent")
-@JsonIgnoreProperties(value={"hibernate_Lazy_Initializer"}, ignoreUnknown = true)
+@JsonIgnoreProperties(value={"hibernateLazyInitializer"}, ignoreUnknown = true)
 public class Parent extends BaseEntity{
 
-    private String firstname;
-    private String lastname;
+    private String firstName;
+    private String lastName;
     private String email;
     private String username;
 
