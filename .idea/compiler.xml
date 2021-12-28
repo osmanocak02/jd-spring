@@ -24,7 +24,6 @@
         <module name="Spring-10-Security-HttpBasic-Database" />
         <module name="Spring-10-Security-DefaultConfiguration" />
         <module name="Spring-11-Rest-ResponseEntity" />
-        <module name="Spring-09-ORM-Mapping-ManyToMany" />
         <module name="Spring-10-Security-FormAuth" />
         <module name="Spring-09-ORM-DerivedQueries" />
         <module name="Spring-02-DI-SetterInjection" />
