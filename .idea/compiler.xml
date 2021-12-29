@@ -16,6 +16,7 @@
         <module name="Spring-11-Rest-HttpVerbs-Legacy" />
         <module name="Spring-01-SpringContainer" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-11-Rest-Security-JWT" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-11-Rest-Jackson" />
         <module name="Spring-02-DI-ConstructorInjection" />
@@ -70,6 +71,7 @@
       <module name="Spring-11-Rest-ResponseEntity" target="11" />
       <module name="Spring-11-Rest-RestTemplate" target="11" />
       <module name="Spring-11-Rest-SchoolLab" target="11" />
+      <module name="Spring-11-Rest-Security-JWT" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -98,6 +100,7 @@
       <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
+      <module name="Spring-11-Rest-Security-JWT" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
       <module name="ormmanytomany" options="-parameters" />

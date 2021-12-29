@@ -29,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-Security-JWT/Spring-11-Rest-Security-JWT.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/Spring-11-Rest-Security-JWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/cybertek.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/cybertek.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/derivedqueries.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/derivedqueries.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToMany/ormmanytomany.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToMany/ormmanytomany.iml" />
