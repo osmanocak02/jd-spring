@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "security.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Description for security.jwt.secret-key."
+    },
+    {
+      "name": "spring.sql.init.mode",
+      "type": "java.lang.String",
+      "description": "Description for spring.sql.init.mode."
+    },
+    {
+      "name": "spring.jpa.defer-datasource-initialization",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.defer-datasource-initialization."
+    },
+    {
+      "name": "security.jwt.secret-key",
+      "type": "java.lang.String",
+      "description": "Description for security.jwt.secret-key."
+    }
+  ] }
