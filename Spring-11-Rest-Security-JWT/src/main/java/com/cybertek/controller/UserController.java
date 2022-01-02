@@ -15,15 +15,15 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/users")
-//@EnableGlobalMethodSecurity(prePostEnabled = true)
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class UserController {
 
     @Autowired
     private UserService userService;
 
     @GetMapping("/read")
-    //@PreAuthorize("hasAuthority('USER')")
-//    @PreAuthorize("hasAnyAuthority('USER','ADMIN')")
+    //@PreAuthorize("hasAuthority('ADMIN')")
+    @PreAuthorize("hasAnyAuthority('USER','ADMIN')")
     public ResponseEntity<ResponseWrapper> readAll(){
 
         List<User> users = userService.getAll();
