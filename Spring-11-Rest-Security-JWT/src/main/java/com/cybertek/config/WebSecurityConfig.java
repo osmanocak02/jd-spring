@@ -17,7 +17,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private SecurityFilter securityFilter;
 
-    @Override
+    @Override // in api there is no form or smt etc. cause that to implement the form()
     @Bean
     public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
@@ -27,14 +27,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception{
 
         http
-                .csrf()
+                .csrf()  // to disable main in the middle attack
                 .disable()
                 .authorizeRequests()
-                .antMatchers("/authenticate")
+                .antMatchers("/authenticate")  // anybody can access this end point.
                 .permitAll()
                 .anyRequest()
                 .authenticated();
 
-        http.addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class);
+        http.addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class); // first security filter is executed.
     }
 }
