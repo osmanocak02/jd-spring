@@ -1,8 +1,10 @@
 package com.cybertek.controller;
 
+import com.cybertek.annotation.DefaultExceptionMessage;
 import com.cybertek.entity.AuthenticationRequest;
 import com.cybertek.entity.ResponseWrapper;
 import com.cybertek.entity.User;
+import com.cybertek.exception.ServiceException;
 import com.cybertek.service.UserService;
 import com.cybertek.util.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,7 @@ public class AuthenticationController {
     private JWTUtil jwtUtil;
 
     @PostMapping("/authenticate")
+    @DefaultExceptionMessage(defaultMessage = "Bad Credentials")
     public ResponseEntity<ResponseWrapper> doLogin(@RequestBody AuthenticationRequest authenticationRequest){
         String password = authenticationRequest.getPassword();
         String username = authenticationRequest.getUsername();
@@ -36,5 +39,15 @@ public class AuthenticationController {
         String jwtToken = jwtUtil.generateToken(foundUser);
 
         return ResponseEntity.ok(new ResponseWrapper("Login Successfully!",jwtToken));
+    }
+
+    @PostMapping("/create-user")
+    //@Operation(summary = "Create a new user")
+    @DefaultExceptionMessage(defaultMessage = "Failed to create user, please try again")
+    public ResponseEntity<ResponseWrapper> createAccount(@RequestBody User user) throws ServiceException {
+
+        User createdUser = userService.createUser(user);
+        return ResponseEntity.ok(new ResponseWrapper("User has been created successfully",createdUser));
+
     }
 }

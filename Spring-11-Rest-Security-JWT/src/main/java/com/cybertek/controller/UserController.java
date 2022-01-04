@@ -22,7 +22,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/read")
-    @PreAuthorize("hasAuthority('ADMIN')")
+    @PreAuthorize("hasAuthority('USER')")
     //@PreAuthorize("hasAnyAuthority('USER','ADMIN')")
     public ResponseEntity<ResponseWrapper> readAll(){
 

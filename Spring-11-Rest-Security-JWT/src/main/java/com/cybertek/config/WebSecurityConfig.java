@@ -30,7 +30,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf()  // to disable main in the middle attack
                 .disable()
                 .authorizeRequests()
-                .antMatchers("/authenticate")  // anybody can access this end point.
+                .antMatchers("/authenticate", "/create-user")  // anybody can access this end point.
                 .permitAll()
                 .anyRequest()
                 .authenticated();
