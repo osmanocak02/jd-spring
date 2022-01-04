@@ -23,6 +23,18 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         return super.authenticationManagerBean();
     }
 
+    private static final String[] permittedUrls ={
+            "/authenticate",
+            "/create-user",
+            "/api/p1/**",
+            "/v3/api-docs/**",
+            "/swagger-resources/**",
+            "/configuration/security",
+            "/swagger-ui.html",
+            "/swagger-ui/**",
+            "/webjars/**",
+    };
+
     @Override
     protected void configure(HttpSecurity http) throws Exception{
 
@@ -30,7 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf()  // to disable main in the middle attack
                 .disable()
                 .authorizeRequests()
-                .antMatchers("/authenticate", "/create-user")  // anybody can access this end point.
+                .antMatchers(permittedUrls)  // anybody can access these end points.
                 .permitAll()
                 .anyRequest()
                 .authenticated();
