@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-12-AOP" />
         <module name="Spring-08-SpringBoot-MVC-Form" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-09-ORM-TableCreation" />
@@ -72,6 +73,7 @@
       <module name="Spring-11-Rest-RestTemplate" target="11" />
       <module name="Spring-11-Rest-SchoolLab" target="11" />
       <module name="Spring-11-Rest-Security-JWT" target="11" />
+      <module name="Spring-12-AOP" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -101,6 +103,7 @@
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
       <module name="Spring-11-Rest-Security-JWT" options="-parameters" />
+      <module name="Spring-12-AOP" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
       <module name="ormmanytomany" options="-parameters" />
