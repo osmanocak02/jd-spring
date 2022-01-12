@@ -122,7 +122,7 @@ public class LoggingAspect {
         logger.info("Before(Method : {} - Parameters : {}",proceedingJoinPoint.getSignature().toShortString(),proceedingJoinPoint.getArgs());
 
         List<Product> results = new ArrayList<>();
-//        results =(List<Product>) proceedingJoinPoint.proceed();
+        results =(List<Product>) proceedingJoinPoint.proceed(); // it must be here // crucial
 
         logger.info("After(Method: {} - Results : {}",proceedingJoinPoint.getSignature().toShortString(),results);
 
