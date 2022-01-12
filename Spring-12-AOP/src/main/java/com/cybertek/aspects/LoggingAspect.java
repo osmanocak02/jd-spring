@@ -107,7 +107,7 @@ public class LoggingAspect {
     public void afterControllerAdvice2(JoinPoint joinPoint){
         logger.info("After finally -> Method : {} - results :{}",joinPoint.getSignature().toShortString());
     }
-/*
+
     //around
 
     @Pointcut("@annotation(org.springframework.web.bind.annotation.PostMapping)")
@@ -127,6 +127,6 @@ public class LoggingAspect {
         logger.info("After(Method: {} - Results : {}",proceedingJoinPoint.getSignature().toShortString(),results);
 
         return results;
-    }*/
+    }
 
 }
