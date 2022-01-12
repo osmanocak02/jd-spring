@@ -70,15 +70,15 @@ public class ProductController {
 
     }
 
-    @GetMapping(value = "/{id}")
+    /*@GetMapping(value = "/{id}")
     public ResponseEntity<Product> getProduct(@PathVariable("id") long id){
         return ResponseEntity.ok(productService.getProduct(id));
-    }
+    }*/
 
-    /*@GetMapping(value = "/{id}")
+    @GetMapping(value = "/{id}")
     public Product getProduct(@PathVariable("id") long id){
         return productService.getProduct(id);
-    }*/
+    }
 
     @GetMapping("/read")
     public ResponseEntity<ResponseWrapper> readAllProducts(){
