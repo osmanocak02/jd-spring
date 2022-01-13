@@ -28,7 +28,7 @@ public class CalculatorParameterizedTest {
 
     }
 
-    /*@ParameterizedTest
+    @ParameterizedTest
     @MethodSource("stringProvider")
     void testCase4(String arg) {
         Assertions.assertNotNull(arg);
@@ -55,5 +55,5 @@ public class CalculatorParameterizedTest {
     void testCase6(int num1, int num2, int result) {
         Assertions.assertEquals(result, Calculator.add(num1, num2));
 //        Assertions.assertEquals(result,Calculator.add(num1,num2));
-    }*/
+    }
 }
