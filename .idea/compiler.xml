@@ -16,6 +16,7 @@
         <module name="cybertek" />
         <module name="Spring-11-Rest-HttpVerbs-Legacy" />
         <module name="Spring-01-SpringContainer" />
+        <module name="Spring-13-UnitTesting-JUnit5" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
         <module name="Spring-11-Rest-Security-JWT" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
@@ -74,6 +75,7 @@
       <module name="Spring-11-Rest-SchoolLab" target="11" />
       <module name="Spring-11-Rest-Security-JWT" target="11" />
       <module name="Spring-12-AOP" target="11" />
+      <module name="Spring-13-UnitTesting-JUnit5" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
