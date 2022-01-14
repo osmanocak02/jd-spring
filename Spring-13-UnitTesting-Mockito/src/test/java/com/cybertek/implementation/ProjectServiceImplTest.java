@@ -37,10 +37,10 @@ class ProjectServiceImplTest {
         when(projectRepository.findByProjectCode("PR01")).thenReturn(project);
         when(projectMapper.convertToDto(project)).thenReturn(projectDTO);
 
-        ProjectDTO projectDTO1 = projectService.getByProjectCode("PR01");
+        ProjectDTO projectDTO1 = projectService.getByProjectCode("PR01"); // real method
 
-        verify(projectRepository).findByProjectCode(Mockito.anyString());
-        verify(projectMapper).convertToDto(Mockito.any(Project.class));
+        verify(projectRepository).findByProjectCode(Mockito.anyString()); // verifying mockings
+        //verify(projectMapper).convertToDto(Mockito.any(Project.class));
 
         assertNotNull(projectDTO1);
     }
