@@ -37,6 +37,7 @@
         <option value="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-12-AOP/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-UnitTesting-JUnit5/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/pom.xml" />
       </list>
     </option>
   </component>
