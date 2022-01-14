@@ -60,6 +60,7 @@ class ProjectServiceImplTest {
     }
     @Test
     void saveTest(){
+
         ProjectDTO projectDTO = new ProjectDTO();
         Project project = new Project();
 
@@ -69,6 +70,7 @@ class ProjectServiceImplTest {
         projectService.save(projectDTO);
 
         verify(projectRepository).save(project);
+        verify(projectMapper).convertToEntity(projectDTO);
 
     }
 
