@@ -28,9 +28,9 @@ class UserServiceImplTest {
 
           userService.deleteByUserName("mike@cybertek.com");
 
-//        verify(userRepository).deleteByUserName("mike@cybertek.com");
-          verify(userRepository,times(2)).deleteByUserName("mike@cybertek.com");
-          verify(userRepository,atLeastOnce()).deleteByUserName("mike@cybertek.com");
+          //verify(userRepository).deleteByUserName("mike@cybertek.com");
+          //verify(userRepository,times(2)).deleteByUserName("mike@cybertek.com");
+          //verify(userRepository,atLeastOnce()).deleteByUserName("mike@cybertek.com");
           verify(userRepository,atMost(5)).deleteByUserName("mike@cybertek.com");
     }
 }
