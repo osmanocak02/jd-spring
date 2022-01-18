@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class WelcomeControllerTest {
 
     @Autowired
-    private MockMvc mockMvc
+    private MockMvc mockMvc;
 
     @Test
     void welcome() throws Exception {
