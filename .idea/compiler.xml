@@ -21,6 +21,7 @@
         <module name="Spring-11-Rest-Security-JWT" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-11-Rest-Jackson" />
+        <module name="Spring-13-UnitTesting-MockMvc" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-08-SpringBoot-MVC-Model-View" />
         <module name="Spring-09-ORM-CinemaLab" />
@@ -78,6 +79,7 @@
       <module name="Spring-12-AOP" target="11" />
       <module name="Spring-13-UnitTesting-JUnit5" target="1.8" />
       <module name="Spring-13-UnitTesting-Mockito" target="11" />
+      <module name="Spring-13-UnitTesting-MockMvc" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -108,6 +110,7 @@
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
       <module name="Spring-11-Rest-Security-JWT" options="-parameters" />
       <module name="Spring-12-AOP" options="-parameters" />
+      <module name="Spring-13-UnitTesting-MockMvc" options="-parameters" />
       <module name="Spring-13-UnitTesting-Mockito" options="-parameters" />
       <module name="cybertek" options="-parameters" />
       <module name="derivedqueries" options="-parameters" />
