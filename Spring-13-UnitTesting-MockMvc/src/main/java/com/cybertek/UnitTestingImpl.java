@@ -10,9 +10,9 @@ public class UnitTestingImpl {
         this.dataRepository = dataRepository;
     }
 
-//    public UnitTestingImpl() {
-//    }
-//
+    public UnitTestingImpl() {
+    }
+
     public int calculateSum(int[] data){
         int sum=0;
         return Arrays.stream(data).sum();
@@ -23,10 +23,10 @@ public class UnitTestingImpl {
         return Arrays.stream(dataRepository.findAll()).sum();
     }
 
-//    public int calculateSumUsingDataService_withParameter(){
-//        int sum=0;
-//        return Arrays.stream(dataRepository.findById(2)).sum();
-//
-    }
+    public int calculateSumUsingDataService_withParameter(){
+        int sum=0;
+        return Arrays.stream(dataRepository.findById(2)).sum();
+
+  }
 
 }
